@@ -6,6 +6,7 @@ This repository is where I share all the little tidbits of Python knowledge that
 2. [Passing data around](https://radekosmulski.github.io/python_shorts/passing_data_around.html)
 3. [Caching expensive calculations](https://radekosmulski.github.io/python_shorts/caching_expensive_calculations.html)
 4. [Providing access from mobile phones to notebooks shared on GitHub](https://radekosmulski.github.io/python_shorts/provide_access_to_notebooks_from_mobile_phones.html)
+5. [Exuberant ctags with vim](https://radekosmulski.github.io/python_shorts/exuberant_ctags_with_vim.html)
 
 I mostly learned these from watching the wonderful [fast.ai Deep Learning lectures](http://course.fast.ai/) or from studying the accompanying [library](https://github.com/fastai/fastai).
 
