@@ -11795,7 +11795,7 @@ div#notebook {
 
 <pre><code> /home/radek/workspace/pytorch</code></pre>
 </li>
-<li>Run <code>ctags -R -L .srclist</code><ul>
+<li>Run <code>ctags -R -L .srclist .</code><ul>
 <li><code>-R</code> tells ctags to recursively look at directories within the current directory</li>
 <li><code>-L</code> tells ctags to look at the listed locations</li>
 </ul>
@@ -11806,8 +11806,8 @@ div#notebook {
 <li><p><code>ctrl+t</code> takes you back</p>
 <p>For tags resolving to multiple source locations</p>
 </li>
-<li><code>:tnext</code> or <code>:tn</code> takes you to the next tag</li>
-<li><code>:tprev</code> or <code>:tp</code> takes you to the previous tag</li>
+<li><code>:tnext</code> or <code>:tn</code> takes you to the next location</li>
+<li><code>:tprev</code> or <code>:tp</code> takes you to the previous loation</li>
 <li><code>:ts</code> lists all source locations</li>
 </ul>
 </li>
@@ -11818,6 +11818,24 @@ div#notebook {
 </ul>
 </li>
 </ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Suggestions-from-Jeremy-Howard">Suggestions from Jeremy Howard<a class="anchor-link" href="#Suggestions-from-Jeremy-Howard">&#182;</a></h3><ul>
+<li><code>:tag</code> is handy and supports tab completion</li>
+<li><p>mapping <code>ctrl-]</code> to  <code>:ts</code> is a good idea</p>
+<p>This is what you need to add to <code>.vimrc</code> for this:</p>
+
+<pre><code>  noremap &lt;C-]&gt; g&lt;C-]&gt;
+</code></pre>
+<p>(gives you a list for multiple defs and jumps immediately for single def)</p>
+</li>
+</ul>
 
 </div>
 </div>
