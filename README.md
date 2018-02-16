@@ -7,6 +7,7 @@ This repository is where I share all the little tidbits of Python knowledge that
 3. [Caching expensive calculations](https://radekosmulski.github.io/python_shorts/caching_expensive_calculations.html)
 4. [Providing access from mobile phones to notebooks shared on GitHub](https://radekosmulski.github.io/python_shorts/provide_access_to_notebooks_from_mobile_phones.html)
 5. [Exuberant ctags with vim](https://radekosmulski.github.io/python_shorts/exuberant_ctags_with_vim.html)
+6. [How to start speaking at conferences](https://radekosmulski.github.io/python_shorts/how_to_start_speaking_at_conferences.html)
 
 I mostly learned these from watching the wonderful [fast.ai Deep Learning lectures](http://course.fast.ai/) or from studying the accompanying [library](https://github.com/fastai/fastai).
 
